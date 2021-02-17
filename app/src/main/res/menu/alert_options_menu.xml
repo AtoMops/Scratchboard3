@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/ao_load"
+        android:title="@string/load" />
+    <item
+        android:id="@+id/ao_cancel"
+        android:title="@string/cancel" />
+    <item
+        android:id="@+id/ao_delete"
+        android:title="@string/delete" />
+</menu>

@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Scratchboard3</string>
+
+    <!-- Strings used for Menu at MainWindow; later use Symbols only -->
+
+    <string name="clear">Clear</string>
+    <string name="color_settings">Color</string>
+    <string name="size_settings">Size</string>
+    <string name="save">Save</string>
+    <string name="load">Load</string>
+    <string name="cancel">Cancel</string>
+    <string name="export">Export</string>
+    <string name="placeholder">placeholder</string>
+    <string name="delete">Delete</string>
+    <string name="ok">Ok</string>
+    <string name="imageValue">myImage</string>
+    <string name="savTypeJPEG">*.jpg</string>
+    <string name="savTypePNG">*.png</string>
+    <string name="imageQuality">Image Quality: </string>
+    <string name="imageQualityValue">50</string>
+
+</resources>

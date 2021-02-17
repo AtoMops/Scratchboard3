@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/pensizeMenu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".gui.MainActivity">
+
+
+    <com.goregoblin.scratchboard3.logic.PenSizeSubMenu
+        android:id="@+id/pensizeSubMenu"
+        android:layout_width="300dp"
+        android:layout_height="300dp" />
+
+    <ImageButton
+        android:id="@+id/btnOkPen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@id/pensizeSubMenu"
+        android:layout_alignBottom="@id/pensizeSubMenu"
+        android:layout_marginBottom="10dp"
+        android:layout_marginEnd="10dp"
+        app:srcCompat="@android:drawable/ic_menu_send" />
+
+    <ImageButton
+        android:id="@+id/btnBackPen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/pensizeSubMenu"
+        android:layout_alignBottom="@id/pensizeSubMenu"
+        android:layout_marginBottom="10dp"
+        android:layout_marginStart="10dp"
+        app:srcCompat="@android:drawable/ic_delete" />
+
+
+</RelativeLayout>
